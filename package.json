@@ -1,0 +1,16 @@
+{
+  "name": "money-sniffer-server",
+  "version": "1.0.0",
+  "description": "Backend proxy that fetches real macroeconomic data (FRED, ECB) and serves it to the frontend without exposing API keys or hitting CORS restrictions.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
